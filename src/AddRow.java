@@ -12,7 +12,7 @@ public class AddRow {
             //create connection to mysql driver using package
             Class.forName("com.mysql.cj.jdbc.Driver");
             //create connection
-            Connection connection = DriverManager.getConnection(DBURL, "root", "Edward007");
+            Connection connection = DriverManager.getConnection(DBURL, "root", "dbPassword");
             //create statement
             Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
             //execute query

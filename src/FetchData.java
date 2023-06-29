@@ -17,7 +17,7 @@ public class FetchData {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             //establish connection
-            Connection connection = DriverManager.getConnection(DBURL, "root", "Edward007");
+            Connection connection = DriverManager.getConnection(DBURL, "root", "dbPassword");
             //create statement from connection object
 
             Statement statement = connection.createStatement();
